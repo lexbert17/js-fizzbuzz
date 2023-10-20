@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big-container{
+    background-color: hsl(195deg 80.95% 16.47%);
+}
+h2{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.square {
+    width: calc(100% / 7);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: hsl(195.47deg 80.71% 38.63%);
+}
+.buzz{
+    background-color: hsl(41.96deg 100% 70%);
+}
+.fizz{
+    background-color: hsl(164.41deg 91.07% 43.92%);
+}
+.fizzbuzz{
+    background-color: hsl(345.53deg 85% 60.78%) ;
+}
